@@ -4,6 +4,7 @@ public class Main {
         int price = 10_000;
         int miles = service.calculate(price);
         System.out.println(miles);
-        System.out.println(price / miles);
+
+
     }
 }
